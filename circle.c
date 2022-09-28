@@ -1,3 +1,4 @@
+
 #include <malloc.h>
 #include "circle.h"
 
@@ -14,6 +15,3 @@ int circleIsValid(const circle * c) {
 void translate(circle* c, const point* p) {
 /*ansver to exercise 6.d*/
 }
-
-
-
