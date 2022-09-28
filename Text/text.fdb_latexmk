@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1664377896 "c:/Users/Steffen/OneDrive - Aarhus universitet/S1 Programming/Tasks/Week 5/assignment-5-SirQuacc/Text/text.tex" "text.pdf" "text" 1664377898
+["pdflatex"] 1664380372 "c:/Users/Steffen/OneDrive - Aarhus universitet/S1 Programming/Tasks/Week 5/assignment-5-SirQuacc/Text/text.tex" "text.pdf" "text" 1664380375
   "C:/Users/Steffen/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1663157468 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/Steffen/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1662651939 10786204 50bbdb592b74e7cfd8e93777d3fd06dd ""
   "C:/Users/Steffen/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233955448 1004 54797486969f23fa377b128694d548df ""
@@ -83,7 +83,7 @@
   "C:/Users/Steffen/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/Steffen/AppData/Local/Programs/MiKTeX/tex/latex/tools/xspace.sty" 1636713860 4545 d84d0b20a11b9c36c6ecf45697be591c ""
   "C:/Users/Steffen/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388494052 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/Steffen/OneDrive - Aarhus universitet/S1 Programming/Tasks/Week 5/assignment-5-SirQuacc/Text/text.tex" 1664377895 6376 c56141f7e71ac9c1dfdfd0454a7c1fe9 ""
+  "c:/Users/Steffen/OneDrive - Aarhus universitet/S1 Programming/Tasks/Week 5/assignment-5-SirQuacc/Text/text.tex" 1664380369 2532 9ad6c2fc2962ccc20c1ee17d3752dd21 ""
   "img//task1.png" 1664377179 36880 dad6412fb2773c5e90b77d9926ed8bb6 ""
   "img//task2.png" 1664377206 55115 15971980f1367279dad697f174fb5116 ""
   "img//task3.png" 1664377233 75521 68eac39e46488921eb31308f698233af ""
@@ -91,9 +91,9 @@
   "img//task5.png" 1664377661 96689 fd6635abf81baefa59c737c58361a673 ""
   "img//task6.png" 1664377484 210595 9ec7daf6b4414376e8bffa65198ee412 ""
   "img//task7.png" 1664377692 209582 259fd805fb772b71ee526eee80cef713 ""
-  "text.aux" 1664377898 1233 8f72ce582e619023d3b55f0c3c3097ac "pdflatex"
-  "text.out" 1664377898 245 fed12652d3f2feab4c00ff7c53be586e "pdflatex"
-  "text.tex" 1664377895 6376 c56141f7e71ac9c1dfdfd0454a7c1fe9 ""
+  "text.aux" 1664380374 1233 7faa0b0d289b43721042737b3d521754 "pdflatex"
+  "text.out" 1664380374 245 fed12652d3f2feab4c00ff7c53be586e "pdflatex"
+  "text.tex" 1664380369 2532 9ad6c2fc2962ccc20c1ee17d3752dd21 ""
   (generated)
   "text.aux"
   "text.log"
