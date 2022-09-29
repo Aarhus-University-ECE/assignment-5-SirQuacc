@@ -19,7 +19,7 @@
 \definecolor{gray}{rgb}{0.5,0.5,0.5}
 \definecolor{mauve}{rgb}{0.58,0,0.82}
 
-\lstset{ frame=tb,
+\lstset{ %frame=tb,
   language=C,
   aboveskip=3mm,
   belowskip=3mm,
@@ -49,47 +49,55 @@
 \section{}
 \includegraphics[width=\linewidth, keepaspectratio=true]{task1}
 \vspace{2pt}\\
-Bla
+The function should have the following signature:
+\begin{lstlisting}
+  int area(int x1, int x2, int y1, int y2){
+    
+    return (x2 - x1) * (y2 - y1);
+  }
 
+\end{lstlisting}
 
+\pagebreak
 \section{}
 \includegraphics[width=\linewidth, keepaspectratio=true]{task2}
 \vspace{2pt}\\
+The completed function is below:
+\begin{lstlisting}
+  void increment(int *in){
+    *in += 1;
+  }
 
-
-
+\end{lstlisting}
 
 \section{}
 \includegraphics[width=\linewidth, keepaspectratio=true]{task3}
 \vspace{2pt}\\
+In this code the xp pointer points to x, and the yp pointer points to y.\\
+The value of x at the end is 10 and the value of y is 5, and thus the pointers point to 10 and 5 respectively.\\
+Below is the diagram over the variables, and this can be found as task3Diagram.png in the /text/img folder.\\
+\includegraphics[scale=0.7, keepaspectratio=true]{task3Diagram}
+
 
 \section{}
 \includegraphics[width=\linewidth, keepaspectratio=true]{task4}
 \vspace{2pt}\\
-
+Here the value of x ends at 0, and the value of y ends at 10, xp points to x and yp points to y.\\
+Below is the diagram for the code, also included as task4Diagram.png in /text/img\\
+\includegraphics[scale=0.7, keepaspectratio=true]{task4Diagram}
 
 \section{}
 \includegraphics[width=\linewidth, keepaspectratio=true]{task5}
 \vspace{2pt}\\
-For this function I've used the return type double instead of void, as we would like to return the average value of the contents of the array, which double seems suitable for.\\
-Below is my completed function, the same can be found in the task5.c file in the attached "Week 4 code.zip" folder, which includes a main function to test the average function.
-\begin{lstlisting}
-  double average(double list[], int n) // return type double to retain the best possible accuracy.
-  {	
-      double average; // Variable to store the ongoing sum and at last the average.
-      for(int i = 0; i < n; i++){ 
-          average += list[i];
-      }
-      average /= n; // Divide the sum of the whole array's values by its length, to get the average.
-      return average;
-  }
-\end{lstlisting}
+The final value of x would be 10 and the final value of y would be 10, and both pointers point to x.\\
+Below is the diagram for the variables, it can be found as task5Diagram.png in /text/img\\
+\includegraphics[scale=0.7, keepaspectratio=true]{task5Diagram}
 
 
 \section{}
 \includegraphics[width=\linewidth, keepaspectratio=true]{task6}
 \vspace{2pt}\\
-
+The edits/answers to this task can be found in the files here in the repository, this one related to circle.h and circle.c
 
 
 \section{}

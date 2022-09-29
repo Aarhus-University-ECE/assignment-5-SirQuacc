@@ -1,14 +1,16 @@
 #pragma once
+#include <stdbool.h>
+
 typedef struct point {
 	int x;
 	int y;
 } point;
-typedef struct circle {
+typedef struct circle { // Circle definition, consists of a point and r.
 	point p;
 	int r;
-} c
+} circle;
 /*add your definition of circle here. You need top call it "circle"*/
 
-void fiveCircles(circle c[]);
-int circleIsValid(const circle* c);
+void fiveCircles(circle c[]); 
+bool circleIsValid(const circle* c);
 void translate(circle* c, const point* p);
