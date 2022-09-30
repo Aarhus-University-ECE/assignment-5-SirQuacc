@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "circle.h": "c",
+        "stdlib.h": "c"
+    },
+    "cmake.configureOnOpen": true
+}
