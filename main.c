@@ -19,22 +19,22 @@ int main(void) {
 	p.y = 2;
 	translate(&c[1], &p); //Translate the circle by the vector stored as point p
 	printCircle(c[1]);
-	printf("isValid: %d", circleIsValid(&c[1]));
+	printf("isValid: %d\n", circleIsValid(&c[1]));
 
 	/*answer to exercise 7.b*/
 	int n; /*number of numbers to read*/
 	printf("Input the length of the Jolly sequence: ");
-	scanf("%d", n);
+	scanf("%d", &n);
 	assert(n < 100); // Don't want that long sequences.
 	/*readin n and check that is is OK*/
-	int *numbers = malloc(sizeof(int) * n); /*the numbers read*/
+	int *numbers = malloc(sizeof(int) * n); // Weird way to create an array of specified size n, storing input numbers.
 	/*readin the n numbers in the array numbers*/
 	printf("Please insert your sequence below:\n");
 	for(int i = 0; i < n; i++){
-		scanf("%d", numbers[i]);
+		scanf("%d", &numbers[i]);
 	}
 	
-	if (isJollyJumber(numbers, n)) {
+	if (isJollyJumper(numbers, n)) {
 		printf("it is a Jolly Jumper");}
 	else {
 		printf("not a Jolly Jumper");}

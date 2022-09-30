@@ -1,2 +1,2 @@
 #pragma once
-int isJollyJumber(const int seq[], int size);
+int isJollyJumper(const int seq[], int size);
