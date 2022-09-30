@@ -12,15 +12,14 @@ int main(void) {
 	circle c[5]; // Declare array of 5 circles
 	fiveCircles(c); // Call function to give values to these 5 circles.
 	for (int i = 0; i < 5; i++) {
-		printCircle(c[i]);
+		printCircle(c[i]); // Print the 5 circles using the printCircle function.
 	}
-	point p;
+	point p; // Create a point p, to use for translating a circle
 	p.x = 2;
 	p.y = 2;
 	translate(&c[1], &p); //Translate the circle by the vector stored as point p
-	printCircle(c[1]);
-	printf("isValid: %d\n", circleIsValid(&c[1]));
-
+	printCircle(c[1]); // Print the translated circle
+	printf("isValid: %d\n", circleIsValid(&c[1])); // Check and print if it is valid (radius > 0).
 	/*answer to exercise 7.b*/
 	int n; /*number of numbers to read*/
 	printf("Input the length of the Jolly sequence: ");
@@ -32,9 +31,9 @@ int main(void) {
 	printf("Please insert your sequence below:\n");
 	for(int i = 0; i < n; i++){
 		scanf("%d", &numbers[i]);
-	}
+	} // Read values into the numbers array.
 	
-	if (isJollyJumper(numbers, n)) {
+	if (isJollyJumper(numbers, n)) { // Call isJollyJumper function to check if the sequence is jolly or not.
 		printf("it is a Jolly Jumper");}
 	else {
 		printf("not a Jolly Jumper");}

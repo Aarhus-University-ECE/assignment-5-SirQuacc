@@ -26,12 +26,12 @@ int isJollyJumper(const int seq[], int size) {
             return 0;
         }
     }
-    for(int i3 = 1; i3 < size; i3++){ // Check/verify the diffs_found array, to have all values 1 (0 here) -> n-1
+    for(int i3 = 1; i3 < size; i3++){ // Check/verify the diffs_found array, to have all values 1 -> n-1
         if(diffs_found[i3] == true){
             verifier++;
         }
     }
-    if(verifier == size){
+    if(verifier == size){ //If all diff's up to n-1 have been found, return 1 (true)
         return 1;
     }
 }
