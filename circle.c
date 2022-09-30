@@ -4,8 +4,6 @@
 #include <stdbool.h>
 #include "circle.h"
 
-
-
 void fiveCircles(circle c[]) { // Create 5 circles
 for(int i = 0; i < 5; i++){
 	c[i].p.x = i;
